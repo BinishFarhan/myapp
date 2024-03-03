@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Details({text}) {
+function Details({text, number}) {
     // console.log(props)
   return (
-    <h1>My name is {text}</h1>
+    <h1>My name is {number}</h1>
   )
 }
 

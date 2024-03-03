@@ -1,10 +1,11 @@
 import React from 'react'
 import Details from './Details'
 
-function MyCard({name}) {
-    // console.log(name)
+function MyCard() {
+    // console.log(props)
   return (
-    <Details text={name} number={2}/>
+    <h1>I am at card page</h1>
+    // <Details text={a} number={2}/>
 
   )
 }
